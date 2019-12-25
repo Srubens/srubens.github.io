@@ -47,7 +47,10 @@ h6 {
 }
 
 
-.author_background img{
+.author_background .img{
+  background:url(../img/rubens.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 200px;
   height: 200px;
   border: 1px solid #eee;
@@ -55,6 +58,21 @@ h6 {
   padding: 5px;
   display: flex;
   margin: 60px auto 0;
+  cursor: pointer;
+}
+
+.author_background .img:hover{
+  background:url(../img/rubens-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  margin: 60px auto 0;
+  cursor: pointer;
 }
 
 .sample_text h3{
